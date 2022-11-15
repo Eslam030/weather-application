@@ -1,8 +1,9 @@
+// Personal API Key for OpenWeatherMap API
+const apiKey = '&appid=a462855bf5f7312086e2a0f30d86c50a&units=imperial';
 // update info function that updates the info in the app
 const updateInfo = function () {
     // the url formation
     let baseUrl = 'https://api.openweathermap.org/geo/1.0/zip?zip=';
-    const apiKey = '&appid=a462855bf5f7312086e2a0f30d86c50a&units=imperial';
     // get the zip from the input
     const zip = document.getElementById('zip').value;
     // get the feelings from the text area

@@ -19,7 +19,7 @@ const updateInfo = function () {
             console.log(data['main']['temp']);
             let d = new Date();
             // the date
-            let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
+            let newDate = (d.getMonth() + 1) + '/' + d.getDate() + '/' + d.getFullYear();
             console.log(newDate);
             console.log(feelling);
             // the post request to the route '/all'
